@@ -22,7 +22,6 @@ body
 {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 4vw;
 	margin-top: 15px;
 	margin-bottom: 25px;
 
@@ -34,4 +33,18 @@ body
 	border: 1px black;
 	border-radius: 1px;
 	color: white;
+}
+.navbar-toggler:hover ,.navbar-toggler:active
+{
+background-color: brown;
+}
+.nav-item:hover , .nav-item:active
+{
+	background-color: darkgray;
+	color: black;
+
+}
+.text-center
+{
+	padding-right: 50px;
 }
